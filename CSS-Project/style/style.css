@@ -1,0 +1,700 @@
+/* 
+-----------------------------------------------------------------------------
+                                    FONTS
+-----------------------------------------------------------------------------
+*/
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(../assets/fonts/Roboto-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(../assets/fonts/Roboto-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Glyphicons-halflings;
+    src: url(../assets/fonts/glyphicons-halflings-regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Fontawesome-webfont;
+    src: url(../assets/fonts/fontawesome-webfont.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* 
+-----------------------------------------------------------------------------
+                                MOBILE VERSION 
+-----------------------------------------------------------------------------
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+h2 {
+    font-family: Roboto-Bold;
+}
+
+/*
+============================================================================= 
+                         HEADER AND NAV SECTION
+=============================================================================  
+*/
+
+.logo {
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(117,117,117);
+}
+
+.logo span {
+    border: 4px solid rgb(117,117,117);
+    border-right: none;
+    padding-left: 10px;
+    color: rgb(255,152,1);  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(127,194,247);
+    margin: 20px;
+}
+
+nav ul li {
+    padding: 7px;
+    text-transform: uppercase;
+    width: 95%;
+}
+
+ul li a:hover {
+    color: aqua;
+}
+
+nav ul li:hover a {
+    color:rgb(127,194,247);
+}
+
+nav ul li:hover {
+    background-color: white;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(238,238,238);
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.header-absolute {
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+header img {
+    width: 100%;
+}
+
+.read-more a {
+    text-decoration: none;
+}
+
+.read-more a:visited {
+    color: white;
+}
+
+.read-more {
+    position: relative;
+    left: 25%;
+    top: 20px;
+    padding: 10px 40px;
+    background-color: rgb(20,110,180);
+    color: white;
+    border-radius: 16px;
+}
+/* 
+============================================================================= 
+Main section 
+============================================================================= 
+*/
+h2 {
+    text-align: center;
+    font-size: 30px
+}
+
+.divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+h3 {
+    color: rgb(127, 194, 247);
+}
+
+.whowearelist {
+    background-color: white;
+    list-style-image: url(../Assets/icons/arrow_bullet.png);
+    text-transform: none;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(121,122,123);
+    text-align: left;
+}
+
+.whowearelist li {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.whoweare {
+    padding: 10px;
+    margin: 20px
+}
+
+.whoweare h3 {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.walls {
+    width: 100%;
+}
+
+
+.dreamhomelist {
+    background-color: white;
+    list-style-image: url(../Assets/icons/arrow_bullet.png);
+    text-transform: none;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(121,122,123);
+    text-align: left;
+}
+
+.dreamhomelist li {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.dreamhomelist {
+    padding: 10px;
+    margin: 20px
+}
+
+.dreamhome h3 {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.whatpeoplesays {
+    background-color: rgb(127,194,247);
+    margin: 30px 15px;
+}
+
+.whatpeoplesays .profilephoto {
+    border-radius: 50%;
+    width: 12%;
+    height: 12%;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+}
+
+.whatpeoplesays h5 {
+    padding-top: 7%;    
+}
+
+.profilephoto {
+    padding: 2px;
+    border: 1px solid white;
+}
+
+.stars {
+    float: left;
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    border-radius: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-top: 2%;
+}
+
+
+.whatpeoplesays p {
+    display: inline-block;
+    color: white;
+    padding: 2%;
+}
+
+.contactus {
+    display: flex;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.green {
+    background-color: rgb(44, 221, 152);
+    width: 50%;
+}
+
+.red {
+    background-color: rgb(255, 79, 129);
+    width: 50%;
+}
+
+.contactus1 {
+    display: flex;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+.blue {
+    background-color: rgb(51, 105, 230);
+    width: 50%;
+}
+
+.green > p {
+    position: relative;
+    top: 40%;
+}
+
+.green > h4 {
+    position: relative;
+    top: 40%;
+}
+
+.blue > p {
+    position: relative;
+    top: 40%;
+}
+
+.blue > h4 {
+    position: relative;
+    top: 40%;
+}
+
+.red > img {
+    position: relative;
+    top: 40%;
+}
+
+.red > h4 {
+    position: relative;
+    top: 40%;
+}
+
+.house {
+    width: 50%;
+    background-color: rgb(127, 194, 247);
+}
+
+.icon {
+    width: 17px;
+    height: 12px;
+}
+
+.houseimg {
+    display:inline-block;
+    width: 70%;
+    height: 200px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.inputname, .inputemail, .inputtelephone, .inputmessage {
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.blue > p {
+    padding: 3%;
+}
+
+.submitbutton {
+    background-color: rgb(255, 152, 1);
+    padding: 8px 30px;
+    color: white;
+    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    border-style: none;
+}
+
+h2 {
+    margin-top: 12%;
+}
+
+/* 
+============================================================================= 
+Footer 
+============================================================================= 
+*/
+
+
+footer {
+    background-color: rgb(33, 33, 33);
+    height: 200px;
+}
+
+.footerlist li a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.trademark {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+
+.footerlist li {
+    display: inline-block;
+    padding: 0 1%;
+}
+
+.footerlist {
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+/* 
+============================================================================= 
+TABLET
+============================================================================= 
+*/
+@media only screen and (min-width: 768px) {
+
+
+/*
+============================================================================= 
+Header and Nav Section - Tablet
+=============================================================================  
+*/
+
+header {
+    position: relative;
+}
+
+.header-absolute {
+    top: 44%;
+    left: 7%;
+    font-size: 1.7em;
+    width: 80%;
+    text-align: center;
+}
+
+.read-more {
+    left: 0%;
+}
+
+.logo {
+    position: absolute;
+    top:20px;
+    left: 5%;
+    z-index: 999;
+    color: white;
+}
+
+.logo span {
+    border-color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    width: fit-content;
+    margin: 10px;
+    padding: 0;
+}
+
+.main-list {
+    right: 1%;
+    font-weight: bold;
+}
+
+nav ul  {
+    background-color: transparent;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 999;
+}
+
+nav ul li:hover {
+    background-color: transparent;
+}
+
+nav ul li:hover a {
+    color: black;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bannerimg {
+    width: 100%;
+}
+
+/* 
+============================================================================= 
+Main section - Tablet
+============================================================================= 
+*/
+
+.whoweare > h2 {
+    margin-top: 5%;
+}
+
+.welcome {
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+
+.walls {
+    width: 45%;
+}
+
+.whatpeoplesays {
+    width: 35%;
+    float: left;
+}
+
+.dreamhome {
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+
+.peopleh2 {
+    margin-top: 7%;
+}
+
+h5 {
+    margin-top: 1%;
+}
+
+.contactus {
+    width: 100%;
+}
+
+.profilephoto {
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.touch {
+    width: 100%;
+    clear:both;
+}
+
+.williamson, .selena {
+    margin-left: 13.5%;
+}
+
+.williamson, .jennifer {
+    margin-bottom: 2%;
+}
+
+.selena {
+    margin-top: 0%;
+    margin-bottom: 8%;
+}
+
+.inputname, .inputemail, .inputtelephone {
+    width: 27.2%;
+}
+
+.inputname {
+    margin-left: 10%;
+}
+
+.inputmessage {
+    width: 86%;
+    margin-left: 10%;
+}
+
+.submitbutton {
+    margin-left: 10%;
+}
+
+/* 
+============================================================================= 
+Footer - Tablet
+============================================================================= 
+*/
+}
+/* 
+=============================================================================  
+LARGE SCREENS 
+============================================================================= 
+*/
+@media only screen and (min-width: 1200px) {
+/*
+============================================================================= 
+Header and Nav Section - Large screens
+=============================================================================  
+*/
+.logo {
+    left: 4%;
+}
+
+.header-absolute {
+    top: 44%;
+    left: 5%;
+    font-size: 1.9em;
+    text-align: center;
+    width: 90%;
+}
+
+.whoweare > h2 {
+    margin-top: 7%;
+}
+
+.read-more {
+    left: 0%;
+}
+/* 
+============================================================================= 
+Main section - Large screens 
+============================================================================= 
+*/
+
+.welcome {
+    margin-left: 7%;
+    margin-right: 1%
+}
+
+.dreamhome {
+    margin-left: 1%;
+    margin-right: 7%;
+}
+
+.whoweare, .walls, .dreamhome, .dream {
+    display: inline-block;
+}
+
+.dream {
+    width: 30%;
+    float: left;
+}
+
+.walls {
+    width: 100%;
+    float: both;
+}
+
+.welcome {
+    width: 27%;
+    float: left;
+}
+
+.dreamhome {
+    width: 27%;
+    float: left;
+    margin-left: 1%;
+}
+
+.whatpeoplesays {
+    width: 30%;
+    margin: 0;
+    margin-left: 3%;
+    padding-bottom: 5%;
+}
+
+.contactus, .contactus1 {
+    width: 50%;
+    float: left;
+}
+
+.profilephoto {
+    padding: 1px;
+    border: 1px solid white;
+}
+
+.whatpeoplesays .profilephoto {
+    margin-left: 7%;
+}
+
+.whatpeoplesays > p {
+    margin-left: 4%;
+}
+
+.touch {
+    margin-top: 23%;
+}
+
+/* 
+============================================================================= 
+Footer - Large screens 
+============================================================================= 
+*/
+}
