@@ -1,3 +1,121 @@
+.header-container {
+  background-color: #18bc9c;
+  color: #ffffff; }
 
+h1 {
+  padding-top: 15px;
+  font-size: 45px; }
+
+nav {
+  background-color: #2c3e50; }
+  nav .container {
+    padding: 6px 0; }
+  nav .navbar-brand {
+    font-weight: bold; }
+  nav button {
+    background-color: #18bc9c !important; }
+
+.nav-link {
+  color: white !important; }
+  .nav-link:hover {
+    color: grey !important; }
+
+* {
+  font-family: Lato-Regular; }
+
+.main {
+  width: 100%; }
+
+h1, h2, h3 {
+  font-weight: bold; }
+
+.fa-star {
+  font-size: 35px; }
+
+.fa-info-circle {
+  padding-right: 5px; }
+
+.icons {
+  margin-top: 25px; }
+  .icons .fab {
+    width: 50px;
+    padding: 16px;
+    margin-right: 7px;
+    border: 2px solid white;
+    border-radius: 50%; }
+    .icons .fab:hover {
+      background-color: #5589b9a1;
+      cursor: pointer; }
+
+/* ZVEZDICA*/
+.container-star {
+  padding: 15px; }
+
+.lines {
+  width: 270px;
+  height: 38px;
+  position: relative;
+  margin: 0 auto; }
+
+.lines::after, .lines::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 5px;
+  background: white;
+  width: 105px;
+  top: 48%; }
+
+.lines::after {
+  left: 0; }
+
+.lines::before {
+  right: 0; }
+
+.lines-dark::after, .lines-dark::before {
+  background: black; }
+
+.about-container {
+  color: #ffffff;
+  background-color: #18bc9c; }
+  .about-container h2 {
+    color: #ffffff;
+    padding-top: 50px; }
+  .about-container .margin-p {
+    margin: 10px 15px; }
+  .about-container button {
+    border: 2px solid white;
+    color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 5px; }
+    .about-container button:hover {
+      background-color: #ffffff;
+      color: #18bc9c; }
+
+.contact-container {
+  margin-bottom: 130px;
+  font-weight: 500; }
+  .contact-container button {
+    border: 2px solid white;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #18bc9c; }
+    .contact-container button:hover {
+      background-color: #ffffff;
+      color: #18bc9c;
+      border: 1px solid #18bc9c; }
+  .contact-container label {
+    color: #495057; }
+
+.footer-container {
+  background-color: #2c3e50;
+  color: #ffffff; }
+  .footer-container small {
+    color: #495057; }
+  .footer-container a {
+    text-decoration: none;
+    color: white; }
+  .footer-container .line-sp {
+    line-height: 7px; }
 
 /*# sourceMappingURL=main.css.map */

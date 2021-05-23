@@ -1,0 +1,29 @@
+.header-container{
+    background-color:$main-bckg;
+    color: $text-clr;
+}
+
+h1{
+    padding-top: 15px;
+    font-size: 45px;
+}
+
+nav {
+    background-color: $blueish;
+    .container {
+        padding: 6px 0;
+    }
+    .navbar-brand {
+        font-weight: bold;
+    }
+    button {
+        background-color: $main-bckg!important;
+    }
+}
+
+.nav-link{
+    color: white!important;
+    &:hover{
+        color:grey!important;
+    }
+}

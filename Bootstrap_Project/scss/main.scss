@@ -1,0 +1,124 @@
+@import "variables";
+@import "navbar";
+
+
+
+*{
+    font-family: Lato-Regular;
+}
+
+.main{
+    width: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.fa-star{
+    font-size: 35px;
+}
+
+.fa-info-circle{
+    padding-right: 5px;
+}
+
+.icons {
+    margin-top:25px;
+    .fab {
+        width: 50px;
+        padding: 16px;
+        margin-right: 7px;
+        border: 2px solid white;
+        border-radius: 50%;
+        &:hover {
+            background-color: #5589b9a1;
+            cursor: pointer;
+        }
+    }
+}
+
+/* ZVEZDICA*/
+.container-star {
+    padding:15px;
+}
+  .lines {
+    width: 270px;
+    height: 38px;
+    position: relative;
+    margin: 0 auto;
+}
+  .lines::after, .lines::before{
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 5px;
+    background: white;
+    width: 105px;
+    top:48%;
+}
+  .lines::after {
+    left:0;
+}
+  .lines::before {
+    right:0;
+}
+
+.lines-dark::after, .lines-dark::before {
+    background: black;
+}
+
+  .about-container{
+      color: $text-clr;
+      background-color: $main-bckg;
+      h2 {
+          color: $text-clr;
+          padding-top: 50px;
+      }
+      .margin-p{
+          margin: 10px 15px;
+      }
+      button {
+          border: 2px solid white;
+          color: $text-clr;
+          margin-bottom: 30px;
+          border-radius: 5px;
+          &:hover{
+            background-color: $text-clr;
+            color: $main-bckg;
+          }
+      }
+  }
+
+  .contact-container {
+    margin-bottom: 130px;
+    font-weight: 500;
+    button {
+        border: 2px solid white;
+        color: $text-clr;
+        font-weight: 600;
+        background-color: $main-bckg;
+        &:hover {
+            background-color: $text-clr;
+            color: $main-bckg;
+            border: 1px solid $main-bckg;
+        }
+    }
+    label{
+        color: $form-color;
+    }
+}
+.footer-container{
+    background-color: $blueish;
+    color: $text-clr;
+    small{
+        color: $form-color;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .line-sp{
+        line-height: 7px;
+    }
+}
