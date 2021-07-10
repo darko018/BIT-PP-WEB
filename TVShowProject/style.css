@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .logo {
+     font-size: 30px;
+     letter-spacing: 1px;
+     font-weight: 800;
+     text-decoration: none;
+     color: #f7f7f7;
+ }
+ .wrapper {
+     width: 100%;
+     max-width: 1020px;
+     margin: 0 auto;
+ }
+ header {
+     background-color: #3F3F3F;
+     color: #fafafa;
+     padding: 10px 0;
+ }
+ header .wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ input[type="text"] {
+     width: 183px;
+     height: 25px; 
+     padding-inline-start: 10px;
+     outline: none;
+     border-radius: 5px;
+ }
+ .toggle {
+     background-color: white;
+     position: absolute;
+     color: black;
+     width: 200px;
+ }
+ header .toggle a{
+     display: block;
+     text-decoration: none;
+     color: black;
+     line-height: 2;
+     padding-inline-start: 10px;
+ }
+ header .toggle a:hover {
+     color: #ff0505;
+ }
+ h2 {
+     display: flex;
+     justify-content: center;
+     font-size: 35px;
+ }
+ main {
+     margin-top: 30px;
+ }
+ main .wrapper {
+     padding: 20px 0;
+     display: flex;
+     flex-wrap: wrap;  
+ }
+ main .wrapper > a {
+     display: block;
+     width: 31%;
+     margin-right: 3.5%;
+     text-decoration: none;
+     color: black; 
+ }
+ main .wrapper > a:hover {
+     opacity: 0.5;
+ }
+ main .wrapper > a:nth-child(3n){
+     margin-right: 0;
+ }
+ main .wrapper > a img {
+     width: 100%;
+ }
+ main .wrapper > a p {
+     font-size: 20px;
+     border: 1px solid lightgray; 
+     text-align: center; 
+     padding: 20px;
+     color: rgb(0,123,255);
+     font-weight: bolder;
+ }
+ footer {
+     background-color: #3F3F3F;
+     color: #fcfcfc;
+     padding: 10px 0;
+     height: 100px;  
+ }
+ .footertext {
+     display: flex;
+     justify-content: center;
+     padding-top: 35px;
+ }
+ /* Second page! */
+ main a.homepage {
+     text-decoration: none;
+     color: black;
+     border: 2px solid  #ffffff;
+     padding: 5px;
+     margin-left: 100px;
+ }
+ main .container {
+     width: 80%;
+     margin: 0 auto;
+     display: flex;
+     padding-left: 150px;
+ }
+ main .container .image {
+     width: 100%;
+     max-width: 680px;
+     max-height: 1000px;
+ }
+ .sidetext {
+     padding-left: 30px;
+ }
+ .showdetails {
+     width: 70%;
+     margin: 0 auto;
+ }
+ .showdetails p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 400;
+ }
+ .showdetails h3 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ @media (max-width: 1100px) {
+     .wrapper {
+         max-width: 600px;
+     }
+     main .wrapper > a {
+         width: 49%;
+         margin-right: 2%;       
+     }
+     main .wrapper > a:nth-child(3n) {
+         margin-right: 2%;
+     }
+     main .wrapper > a:nth-child(2n) {
+         margin-right: 0;
+     }
+     main .container {
+         width: 90%;
+         padding-left: 0;
+     }
+ }
+ @media (max-width: 700px) {
+     .wrapper {
+         max-width: 350px;
+     }
+     input[type="text"] {
+         width: 150px;
+     }
+     main .wrapper > a {   
+         width: 100%;
+         margin-right: 0; 
+         margin-bottom: 30px;
+         border-color: black;
+     }
+     main .wrapper > a:nth-child(3n) {
+         margin-right: 0;
+     }
+     main .wrapper > a:nth-child(2n) {
+         margin-right: 0;
+     }
+     main .container {
+         flex-direction: column;
+     }
+     .showdetails {
+         width: 80%;
+         margin: 0 auto;
+     }
+ }
